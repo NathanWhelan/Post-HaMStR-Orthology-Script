@@ -1,5 +1,8 @@
-This script is designed to process the output of HaMStR and do an initial orthology determination. 
-The following programs/scripts are required to be in your path before running
+#Orthology Script
+
+This script is designed to process the output of HaMStR and do an initial orthology determination. A simple bash file is provided in the repository that can be used (probably will modification) to concatenate genes from fa_dir_* directories from HaMStR output
+
+The following programs/scripts are required to be in your path before running:
 
 -GNU Parallel (http://www.gnu.org/software/parallel/)
 
