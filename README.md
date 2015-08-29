@@ -24,4 +24,4 @@ The following programs/scripts are required to be in your path before running:
 
 #Required Input
 This script requires homologous genes as determined by HaMStR in fasta format. Please make sure the file suffix for each file is ".fa"
-Variables at top of script must also be modified before running. Please read through script before running to understand what is happenening and to make sure all programs are in your path. The script is commented before each major step.
+Variables at top of script must also be modified before running. Please read through script before running to understand what is happenening and to make sure all programs are in your path. The script is commented before each major step. Please note that this script assumes your genes have five numbers before .fa suffix (e.g. 12456.fa). If yours only have four please modify script before FastTree step. 
