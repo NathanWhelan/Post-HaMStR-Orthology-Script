@@ -195,7 +195,7 @@ echo
 echo "Trimming alignments in aliscore and alicut..."
 ##PARALLEL VERSION
 ls *.fa | parallel -j $CORES 'perl /usr/local/genome/bin/aliscore.pl -N -e -i {}'
-perl /usr/local/genome/bin/alicut.pl s ##RUNS ALICUT AFTER ALISCORE
+perl /usr/local/genome/bin/alicut.pl -s ##RUNS ALICUT AFTER ALISCORE
 #POST ALICUT
 mkdir alicut_files
 mv [0-9]*.fa ./alicut_files/
